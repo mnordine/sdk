@@ -67,7 +67,7 @@ Updated the Linter to `0.1.124`, which includes:
 * A fixed false positives in `unnecessary_null_types`.
 * Fixes to `prefer_constructors_over_static_methods` to respect type parameters.
 * Updates to `always_require_non_null_named_parameters` to be NNBD-aware.
-* Updates tp `unnecessary_nullable_for_final_variable_declarations` to allow dynamic.
+* Updates to `unnecessary_nullable_for_final_variable_declarations` to allow dynamic.
 * Updates `overridden_fields` to not report on abstract parent fields.
 * Fixes to `unrelated_type_equality_checks` for NNBD.
 * Improvements to `type_init_formals`to allow types not equal to the field type.
